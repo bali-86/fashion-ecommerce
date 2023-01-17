@@ -37,7 +37,7 @@
           </ul>
         </div>
 
-        <div class="input-group ms-5">
+        <div class="input-group d-none d-lg-flex">
           <div class="form-outline">
             <input type="search" id="form1" class="form-control" />
             <!-- <label class="form-label" for="form1">Search</label> -->
