@@ -36,11 +36,25 @@
             </li>
           </ul>
         </div>
+
+        <div class="input-group ms-5">
+          <div class="form-outline">
+            <input type="search" id="form1" class="form-control" />
+            <!-- <label class="form-label" for="form1">Search</label> -->
+          </div>
+          <button type="button" class="btn btn-primary">
+            <i class="fa-solid fa-search"></i>
+          </button>
+        </div>
+
         <button
           id="cartbtn"
+          style="width: 7rem"
           class="btn btn-white bg-white btn-md mb-2 text-decoration-none"
         >
-          <router-link to="/CartDetail">{{ cartItemCount }} Cart</router-link>
+          <router-link to="/CartDetail"
+            >{{ cartItemCount }} <i class="fa-solid fa-cart-shopping"></i
+          ></router-link>
         </button>
       </div>
     </nav>
